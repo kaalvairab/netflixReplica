@@ -89,3 +89,28 @@ hr{
 .section-2-txt{
   padding-top: 10vh;
 }
+
+/* faqs */
+.faqs{
+  text-align: center;
+}
+
+.faqs-question{
+  background-color: #303030;
+  width: 60vw;
+  text-align: left;
+  display: inline-block;
+  font-size: 24px;
+  padding: 14px;
+}
+
+.question{
+  float: left;
+}
+.more-plus{
+  float: right;
+}
+
+.answer{
+  display: block;
+}

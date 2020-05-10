@@ -111,6 +111,39 @@ hr{
   float: right;
 }
 
+input#dropdownCheckbox{
+}
+
 .answer{
+  display: none;
+}
+
+input:checked ~.answer{
   display: block;
+}
+
+
+/*FOOTER  */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  padding: 5vw 15vw 5vw 10vw;
+  color: #4f7562;
+}
+
+.footer a{
+  color: #4f7562;
+  text-decoration: none;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+.footer>ul{
+  margin: auto;
+  list-style-type: none;
+}
+
+.footer>ul>li{
+  padding: 8px 5px;
 }

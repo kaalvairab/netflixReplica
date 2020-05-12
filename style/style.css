@@ -14,8 +14,8 @@ hr{
 
 .home{
   background-image: url('https://www.myanmore.com/wp-content/uploads/2019/05/netflix-background-9.jpg');
-  height: 99vh;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
  
 }
 .overlay{
@@ -60,6 +60,7 @@ hr{
 .join-us{
 
 }
+
 
 .join-us>input{
   padding: 12px 12px;
@@ -144,7 +145,7 @@ input:checked ~ .answer{
 .footer{
   display: flex;
   flex-direction: row;
-  padding: 5vw 15vw 5vw 10vw;
+  padding: 20px 100px;
   color: #4f7562;
 }
 

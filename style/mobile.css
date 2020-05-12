@@ -1,0 +1,114 @@
+
+.home {
+  height: 50vh;
+}
+
+.header{
+  padding: 0px 10px;
+}
+
+.logo {
+  height: 75px;
+  width: 150px;
+}
+
+.sign-in {
+  padding: 20px 25px;
+    float: right;
+}
+
+.sign-in>button {
+  border: none;
+  background-color: #e50914;
+  padding: 6px 14px;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.central {
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.central>h1{
+  font-size: 24px;
+}
+.central>h2{
+  font-size: 16px;
+
+}
+.central>h4{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.join-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.join-us>input {
+  padding: 12px 12px;
+  border: none;
+  font-size: 16px;
+  width: 80vw;
+}
+
+.join-us>button {
+  border: none;
+  background-color: #e50914;
+  padding: 12px 12px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Sections */
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section-2>div {
+  width: 80vw;
+}
+
+.section-2-txt {
+  padding-top: 0vh;
+}
+
+.section-2-txt>h1{
+  font-size: 24px;
+  
+}
+
+.section-2-txt>h3{
+  font-size: 18px;
+  font-weight: normal;
+}
+/* Faqs */
+.faqs-question{
+  width: 90vw;
+  font-size: 20px;
+}
+/* Footer */
+.footer{
+  flex-direction: column;
+  padding: 0px;
+}
+
+.footer>ul {
+  list-style-type: none;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.footer>ul>li {
+  padding: 4px 2px;
+}

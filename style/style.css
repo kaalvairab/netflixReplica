@@ -2,6 +2,7 @@ body{
   background-color: black;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 img{
   height: 100%;
@@ -112,14 +113,29 @@ hr{
 }
 
 input#dropdownCheckbox{
+
+}
+
+.faqs-question>label{
+  cursor: pointer;
 }
 
 .answer{
-  display: none;
+  float: left;
+  max-height: 0;
+  overflow: hidden;
 }
 
-input:checked ~.answer{
-  display: block;
+input:checked ~ label>div.more-plus span{
+  display: none;
+}
+input:checked ~ label>div.more-plus:after{
+  content: 'X';
+}
+
+
+input:checked ~ .answer{
+ max-height: 100%;
 }
 
 

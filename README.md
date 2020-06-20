@@ -5,6 +5,4 @@
 
 HTML, CSS, Javascript
 
-<b>View link</b>
-
-https://kaalvairab.github.io/netflixReplica
+<b>View link</b> https://kaalvairab.github.io/netflixReplica

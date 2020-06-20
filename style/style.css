@@ -15,7 +15,7 @@ hr{
 .home{
   background-image: url('https://www.myanmore.com/wp-content/uploads/2019/05/netflix-background-9.jpg');
   height: 100vh;
-  width: 100vw;
+  width: 100%;
  
 }
 .overlay{
@@ -97,48 +97,43 @@ hr{
   text-align: center;
 }
 
-.faqs-question{
+.question{
+
   background-color: #303030;
   width: 60vw;
   text-align: left;
   display: inline-block;
   font-size: 24px;
   padding: 14px;
-}
 
-.question{
-  float: left;
 }
-.more-plus{
+.question:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
   float: right;
+  margin-left: 5px;
+  
 }
 
-input#dropdownCheckbox{
-
+.question-active:after {
+  content: "\2212";
 }
 
-.faqs-question>label{
-  cursor: pointer;
-}
 
 .answer{
-  float: left;
   max-height: 0;
   overflow: hidden;
-}
-
-input:checked ~ label>div.more-plus span{
+  width: 60vw;
+  text-align: left;
+  font-size: 24px;
+  padding: 14px;
+  margin: auto;
   display: none;
-}
-input:checked ~ label>div.more-plus:after{
-  content: 'X';
-}
+  background-color: #303030;
+  border-top: 1px solid #000000;
 
-
-input:checked ~ .answer{
- max-height: 100%;
 }
-
 
 /*FOOTER  */
 

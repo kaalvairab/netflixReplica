@@ -1,8 +1,10 @@
 # netflixReplica
-Replica of Netflix Website.
+<b>Replica of Netflix Website.</b>
 
-Website is viewable on Web & Mobile
+<b>Technologies :</b>
 
-Responsive tested on Iphone X
+HTML, CSS, Javascript
+
+<b>View link</b>
 
 https://kaalvairab.github.io/netflixReplica
